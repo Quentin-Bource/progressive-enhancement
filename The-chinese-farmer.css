@@ -10,14 +10,13 @@ background-size: cover;
 
 p{font:serif;
 font-size: 14px;
-letter-spacing: 2px;
-word-spacing: 2px;
 color:#564909;}
+.p1{font-weight: bold;}
 
 a{ font:"Comic Sans MS", cursive, sans-serif; 
 text-decoration: none;
 color: firebrick;}
-a:visited{color:chartreuse}
+a:visited{color:rgba(128, 255, 0, 0.318)}
 a:hover{color:#564909}
 a:active{color:black}
 
@@ -43,8 +42,17 @@ blockquote {
 
 .Good {
     color:green;
-    font-variant: small-caps;
+    text-transform: capitalize;
 }
 
 .Bad{color:red;
-font-variant: small-caps;}
+text-transform: capitalize;}
+
+.white{background-color: white;}
+
+.grey {background-color: grey;}
+
+.good_pouce {
+    background-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Keller-5/main/1.Path/1.The_Field/1.4.HTML-CSS/assets/bien.png?token=GHSAT0AAAAAAB3GWKJ5YPIFLWEQX3NB23FSY3U2NQA);
+;}
+
