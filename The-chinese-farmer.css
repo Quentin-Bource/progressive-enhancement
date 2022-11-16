@@ -8,10 +8,11 @@ background-position: right bottom;
 background-size: cover;
 }
 
-p{font:serif;
-font-size: 16px;
+p,ol{font:serif;
+font-size: 20px;
 color:#564909;}
 .p1{font-weight: bold;
+    margin-top: 550px;
 }
 
 a{ font:"Comic Sans MS", cursive, sans-serif; 
@@ -66,20 +67,33 @@ text-transform: capitalize;}
 }
 .cat{background-image: url(https://raw.githubusercontent.com/Quentin-Bource/progressive-enhancement/main/cat.png);
 }
-.jeunes {float: left;
+.jeunes {
+    float: left;
 margin-bottom: 10%;
-margin-right: 10%;}
-
-.pierre {float: right;
-margin-left: 15%;
-margin-bottom: 5%;}
-
-.fermierpicture {float:left;
 margin-right: 10%;
-margin-top: 7%;
-margin-bottom: 4%;}
+height: 50%;
+width: auto;}
+
+.pierre {
+    float: right;
+margin-left: 15%;
+margin-bottom: 5%;
+height: 50%;
+width: auto;}
+
+.fermierpicture {
+    float:left;
+margin-right: 10%;
+margin-bottom: 4%;
+height: 50%;
+width: auto;}
+
+.clearfloat{
+    clear: both;
+}
 
 h2 {
-    text-align: center;
+    
     font-size: 40px ;
+    margin-top: 150px;
 }
